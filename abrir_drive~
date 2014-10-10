@@ -1,0 +1,5 @@
+#!/bin/bash
+
+eject
+
+echo "Abrindo o leitor de midia otica"

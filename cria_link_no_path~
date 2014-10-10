@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#echo "Por favor, informe o nome do script"
+origem=`pwd`/$1
+destino="/usr/bin"/$1
+
+if sudo ln -s $origem $destino
+then
+	echo "Link criado"
+fi
+#cho $origem $destino

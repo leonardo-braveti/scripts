@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+origem=`pwd`/$1
+destino="/usr/bin"/$1
+
+if sudo ln -s $origem $destino
+then
+	echo "Link criado"
+fi
+
