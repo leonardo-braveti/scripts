@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo "Informe o caminho do diretorio"
-read caminho
-
-cd $caminho
-
-total_linhas=$(ls -la | grep -v "^d" | wc -l)
-echo "No diretorio $caminho existem $total_linhas arquivos"
