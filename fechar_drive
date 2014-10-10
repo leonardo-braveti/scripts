@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Fechando o leitor de midia otica"
 eject -t
 
-
+echo "Fechando o leitor de midia otica"
